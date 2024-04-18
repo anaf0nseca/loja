@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: gray; */
+}
+
+#tabela{
+    margin: 50px auto;
+}
+
+#tabela p{
+    text-align: center;
+    font-size: 25px;
+    /* color: white; */
+
+}
+
+p.nome {
+    /* visibility: hidden; */
+    font-size: 12px !important;
+    padding: 0;
+    display: none;
+}
+
+#titulo{
+    font-size: 70px;
+}
+td{
+    border: 1px solid black;
+    width: 77px;
+    height: 77px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    /* color: white; */
+    /* border-radius: 20%; */
+}
+
+.vazio{
+    border: 0;
+    cursor: default;
+
+}
+
+.vazio:hover{
+    box-shadow: none;
+}
+
+.hidrogenio{
+    background-color: #89B7EB;
+    border: #89B7EB;
+    border-radius: 30%;
+    color: #2C3D50;
+}
+.metaisrep{
+    background-color: #93b171;
+    border-radius: 30%;
+    border: 1px solid #93b171;
+    color: #38442C;
+
+}
+
+.metaisex{
+    background-color: #1b98a0;
+    border:1px solid #1b98a0;
+    border-radius: 30%;
+    color: #07383B;
+
+}
+
+.naometais{
+    background-color: #e77a2b;
+    border: 1px solid #e77a2b;
+    border-radius: 30%;
+    color: #6F3811;
+}
+
+.gasesnobres{
+    background-color: #7e539a;
+    border: #7e539a;
+    border-radius: 30%;
+    color: #32233D;
+}
+
+.metaisin{
+    background-color: #8197a0;
+    border: #8197a0;
+    border-radius: 30%;
+    color: #2E3639;
+}
+
+td:hover{
+    transform: scale(2.0);
+    transition: 2s;
+    box-shadow: -2px 7px 46px 5px rgba(0,0,0,0.32);
+    
+}
+td:hover p.nome{
+    display: block;
+}
+
+sup{
+    font-size: 13px;
+}
+
+
